@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    android:padding="@dimen/cardview_compat_inset_shadow"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My First App!"
+        android:textColor="@android:color/white"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karsten Gabriel L. Cabico"
+        android:textColor="@android:color/white"
+        android:textSize="7pt"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies: \nPlaying Video Games, \nSleeping & Biking"
+        android:textColor="@android:color/white"
+        android:textSize="10pt"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age: 18\nGender: Male\nStatus: Alive"
+        android:textColor="@android:color/white"
+        android:textSize="8pt"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="312dp"
+        android:layout_height="221dp"
+        app:srcCompat="@drawable/adgqks"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
